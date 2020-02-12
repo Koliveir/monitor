@@ -1,3 +1,19 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#container {
+    display:                flex;
+}
+
+.blocos {
+    margin:                 5px;
+    padding:                75px;
+    width:                  80px;
+    border-radius:          10px;
+    width:                  100px;
+    height:                 70px;
+    background-color:     yellowgreen;
+    color:                whitesmoke;
+    text-align:             center;
+}
