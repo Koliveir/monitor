@@ -1,19 +1,38 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #container {
     display:                flex;
+    margin-top:             5%;
+    margin-left:            10px;
+    margin-right:           10px;
+    width:                  auto;
+    background-color:     #D3D3D3;
 }
 
 .blocos {
-    margin:                 5px;
-    padding:                75px;
-    width:                  80px;
-    border-radius:          10px;
-    width:                  100px;
-    height:                 70px;
-    background-color:     yellowgreen;
-    color:                whitesmoke;
+    margin:                 3px;
+    margin-top:             6px;
+    padding-top:            25px;
+    padding-bottom:         25px;
+    display:                block;
+    box-shadow:             0px 0px 5px #666;
+    width:                  140px;
+    height:                 40px;
+    border-radius:          3px;
+    background-color:       #53a000;
+    color:                  whitesmoke;
+    font-size:              75%;
     text-align:             center;
+}
+
+.rodape {
+    text-align:             center;
+    margin-top:             20%;
+    padding:                5px;
+    width:                  100%;
+    background-color:     black;
+    color:                seashell;
+    position:               fixed;
 }
